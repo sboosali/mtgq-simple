@@ -1,0 +1,9 @@
+
+input.query-cmc:invalid + span:after {
+  content: '✖';
+}
+  
+input.query-cmc:valid  + span:after {
+  content: '✓';
+}
+

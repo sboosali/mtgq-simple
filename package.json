@@ -1,0 +1,78 @@
+{
+  "name": "mtgq-simple",
+  "version": "0.0.0",
+
+  "dependencies": {
+
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "react": "^16.13.1"
+  },
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
+  "devDependencies": {
+
+    "css-loader": "",
+    "style-loader": "",
+    "file-loader": "",
+    "url-loader": "",
+
+    "babel-core": "^7",
+    "babel-polyfill": "^7",
+    "babel-loader": "^7",
+    "babel-eslint": "^7",
+    "babel-preset-es2015": "^7",
+    "babel-preset-react": "^7",
+    "babel-plugin-react-transform": "^7",
+    "babel-plugin-transform-object-rest-spread": "^7",
+    "babel-plugin-transform-react-display-name": "^7",
+
+    "eslint": "^6.8",
+    "eslint-plugin-babel": "",
+    "eslint-plugin-react": "",
+
+    "bootstrap": "",
+
+    "extract-text-webpack-plugin": "^",
+    "webpack": "^2.0"
+  },
+
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Query \"Magic: the Gathering\" cards.",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sboosali/mtgq-simple.git"
+  },
+  "keywords": [
+    "mtg"
+  ],
+  "author": "Spiros Boosalis",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/sboosali/mtgq-simple/issues"
+  },
+  "homepage": "https://github.com/sboosali/mtgq-simple#readme",
+  "private": true
+}
